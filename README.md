@@ -1,7 +1,10 @@
-### Copy the command below and paste it into Windows PowerShell to do Windows Free Activation. 👋
-### Copie el siguiente comando y péguelo en Windows PowerShell para realizar la activación gratuita de Windows. 👋
-### Copie o seguinte comando e cole-o no Windows PowerShell para realizar a ativação gratuita do Windows. 👋
-### नि: शुल्क विंडोज सक्रियण करने के लिए निम्न कमांड को कॉपी करें और इसे विंडोज पावरशेल में पेस्ट करें 👋
+Copy the command below and paste it into Windows PowerShell to do Windows Free Activation. 👋⚡
+
+Copie el siguiente comando y péguelo en Windows PowerShell para realizar la activación gratuita de Windows. 👋⚡
+
+Copie o seguinte comando e cole-o no Windows PowerShell para realizar a ativação gratuita do Windows. 👋⚡
+
+नि: शुल्क विंडोज सक्रियण करने के लिए निम्न कमांड को कॉपी करें और इसे विंडोज पावरशेल में पेस्ट करें 👋⚡
 
 <!--
 **projetos-gabriel-pub/projetos-gabriel-pub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
